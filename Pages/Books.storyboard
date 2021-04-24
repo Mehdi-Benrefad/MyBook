@@ -20,13 +20,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur6-dN-sB1">
-                                <rect key="frame" x="82" y="70" width="242" height="541"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6MC-It-l5G">
                                 <rect key="frame" x="20" y="20" width="54" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -38,6 +31,21 @@
                                     <segue destination="Cp1-u3-Gme" kind="unwind" unwindAction="unwindBookToWelcomeWithSegue:" id="25F-kO-fN0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCl-kj-QsU">
+                                <rect key="frame" x="124" y="575" width="166" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="lire"/>
+                                <connections>
+                                    <segue destination="V3y-kZ-tkq" kind="show" id="sKa-gF-QPb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur6-dN-sB1">
+                                <rect key="frame" x="86" y="98" width="242" height="353"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="dva-7i-l4N"/>
@@ -49,7 +57,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3c-mV-Bfv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Cp1-u3-Gme" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="27.536231884057973" y="87.228260869565219"/>
+            <point key="canvasLocation" x="-1210.144927536232" y="66.84782608695653"/>
+        </scene>
+        <!--Book Container Of Pages-->
+        <scene sceneID="q0h-ue-Bnn">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" modalPresentationStyle="fullScreen" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="V3y-kZ-tkq" customClass="BookContainerOfPages" customModule="Pages" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="B6i-mf-EPZ"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3wv-aQ-SZI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-161" y="67"/>
+        </scene>
+        <!--Book Content View Controller-->
+        <scene sceneID="vXE-8O-Civ">
+            <objects>
+                <viewController storyboardIdentifier="page" id="FKc-xz-4Ou" customClass="BookContentViewController" customModule="Pages" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cZo-Ix-p9b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StU-fB-GP9">
+                                <rect key="frame" x="50" y="114" width="314" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="VUq-1b-GBQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="page" destination="StU-fB-GP9" id="MOs-Tj-tTU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fzh-bd-tLA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-162.31884057971016" y="738.58695652173924"/>
         </scene>
     </scenes>
 </document>
