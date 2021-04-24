@@ -31,4 +31,7 @@ class BookViewController: UIViewController {
             //ce segue sera lance dans la methode valider en haut
         }
     }
+    
+    @IBAction func unwindBookToFirstPage(segue:UIStoryboardSegue) { }
+    
 }

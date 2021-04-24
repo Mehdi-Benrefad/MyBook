@@ -11,12 +11,13 @@ import UIKit
 class BookContentViewController: UIViewController {
     @IBOutlet weak var titre: UILabel!
     @IBOutlet weak var page: UILabel!
+    @IBOutlet weak var pageContent: UILabel!
     var texte = String()
     var titreSection = String()
     override func viewDidLoad() {
         super.viewDidLoad()
         titre.text = titreSection
-        page.text = texte
+        pageContent.text = texte
     }
     
 
