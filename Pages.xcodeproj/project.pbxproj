@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F0295462634600900FC11F6 /* BookContainerOfPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0295452634600900FC11F6 /* BookContainerOfPages.swift */; };
 		4F02954A2634612300FC11F6 /* BookContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0295492634612300FC11F6 /* BookContentViewController.swift */; };
+		4F02954C26346DE900FC11F6 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F02954B26346DE900FC11F6 /* Page.swift */; };
 		4F70B8E9263335C200A259F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70B8E8263335C200A259F0 /* AppDelegate.swift */; };
 		4F70B8EB263335C200A259F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70B8EA263335C200A259F0 /* SceneDelegate.swift */; };
 		4F70B8ED263335C200A259F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70B8EC263335C200A259F0 /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		4F0295452634600900FC11F6 /* BookContainerOfPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContainerOfPages.swift; sourceTree = "<group>"; };
 		4F0295492634612300FC11F6 /* BookContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContentViewController.swift; sourceTree = "<group>"; };
+		4F02954B26346DE900FC11F6 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		4F70B8E5263335C200A259F0 /* Pages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F70B8E8263335C200A259F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F70B8EA263335C200A259F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		4FFB833C2633B1C4007F7636 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F02954B26346DE900FC11F6 /* Page.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				4F70B8E9263335C200A259F0 /* AppDelegate.swift in Sources */,
 				4F0295462634600900FC11F6 /* BookContainerOfPages.swift in Sources */,
 				4FFB83422633C7EF007F7636 /* BookViewController.swift in Sources */,
+				4F02954C26346DE900FC11F6 /* Page.swift in Sources */,
 				4F70B8F3263335C200A259F0 /* Pages.xcdatamodeld in Sources */,
 				4F70B8EB263335C200A259F0 /* SceneDelegate.swift in Sources */,
 				4F02954A2634612300FC11F6 /* BookContentViewController.swift in Sources */,

@@ -33,5 +33,7 @@ class ViewController: UIViewController {
             
                //ce segue sera lance dans la methode valider en haut
            }
-       }}
+       }
+    
+}
 

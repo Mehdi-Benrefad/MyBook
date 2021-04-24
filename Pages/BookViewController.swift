@@ -17,20 +17,18 @@ class BookViewController: UIViewController {
             page.text = titre
             
         }
-        //print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
-        //print(titre)
-        // Do any additional setup after loading the view.
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    //passer le nom du livre via [Segue] afin de le charger
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "segueToPagesLoad"{
+            //recuperer le controlleur de destination
+            let book = segue.destination as! BookContainerOfPages
+            book.titre = titre
+         
+            //ce segue sera lance dans la methode valider en haut
+        }
     }
-    */
-
 }

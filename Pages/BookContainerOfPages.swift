@@ -9,14 +9,20 @@
 import UIKit
 
 class BookContainerOfPages: UIPageViewController ,  UIPageViewControllerDelegate , UIPageViewControllerDataSource {
-    
+    var titre=String()
     var pages = [UIViewController]()
+    var livre = [Page]()
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for i in 1...10{
+         if(titre == "Le Dernier Jour d’un condamné"){
+                livre = dernierJour
+                   
+               }
+        
+        for i in 0...livre.count-1{
             let page1 = storyboard?.instantiateViewController(identifier: "page") as! BookContentViewController
-            page1.texte = "La Boîte à merveilles est un roman autobiographique de l'écrivain marocain Ahmed Sefrioui, publié en 1954."
+            page1.texte = livre[i].content
             pages.append(page1)
             //page1.PageColor = #colorLiteral(red: 0.9309845567, green: 0.6428451538, blue: 0.310287118, alpha: 1) //using color literal
         }
