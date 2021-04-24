@@ -50,11 +50,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="laboiteamerveilles" translatesAutoresizingMaskIntoConstraints="NO" id="Lyp-AX-rYl">
+                                <rect key="frame" x="86" y="187" width="240" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="dva-7i-l4N"/>
                     </view>
                     <connections>
+                        <outlet property="image" destination="Lyp-AX-rYl" id="hna-Db-JIQ"/>
                         <outlet property="page" destination="Ur6-dN-sB1" id="tmj-jD-F4Z"/>
                     </connections>
                 </viewController>
@@ -107,7 +112,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.81353222150259064" green="0.76293379747889722" blue="0.58049357107827781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.80613776009018612" green="0.8809302137305699" blue="0.86435152997988818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="VUq-1b-GBQ"/>
                     </view>
                     <connections>
@@ -121,4 +126,7 @@
             <point key="canvasLocation" x="-162.31884057971016" y="738.58695652173924"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="laboiteamerveilles" width="259" height="194"/>
+    </resources>
 </document>

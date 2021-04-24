@@ -10,13 +10,20 @@ import UIKit
 
 class BookViewController: UIViewController {
     var titre : String!
+    @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var page: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
             page.text = titre
-            
         
+            if titre == "La Boîte à merveilles"{
+                image.image = UIImage(named:  "laboiteamerveilles")
+            }else if titre == "Antigonne" {
+                image.image = UIImage(named:  "antigonne")
+            }else if titre == "Le Dernier Jour d’un condamné"{
+                image.image = UIImage(named:  "dernierjourduncondamne")
+            }
         
     }
     
