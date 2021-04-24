@@ -21,6 +21,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
-}
+    
+    //passer le nom du livre via [Segue] afin de le charger
+       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           if segue.identifier == "segueToBook"{
+               //recuperer le controlleur de destination
+               let book = segue.destination as! BookViewController
+            book.titre = Titre.text!
+            
+               //ce segue sera lance dans la methode valider en haut
+           }
+       }}
 

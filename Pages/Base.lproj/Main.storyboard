@@ -43,7 +43,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="sDc-QE-Nh2" kind="show" id="sQ1-Jh-kyI"/>
+                                    <segue destination="sDc-QE-Nh2" kind="show" identifier="segueToBook" id="sQ1-Jh-kyI"/>
                                 </connections>
                             </button>
                         </subviews>
