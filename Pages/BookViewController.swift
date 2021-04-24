@@ -13,9 +13,12 @@ class BookViewController: UIViewController {
     @IBOutlet weak var page: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        page.text = titre
-        print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
-        print(titre)
+        if(titre == "Le Dernier Jour d’un condamné"){
+            page.text = titre
+            
+        }
+        //print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+        //print(titre)
         // Do any additional setup after loading the view.
     }
     

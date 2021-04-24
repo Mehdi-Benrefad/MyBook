@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    //on declare le controlleur comme cibre de retour en arriere
+    @IBAction func unwindBookToWelcome(segue:UIStoryboardSegue) { }
     
     //passer le nom du livre via [Segue] afin de le charger
        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

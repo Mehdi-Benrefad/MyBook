@@ -15,7 +15,7 @@
         <!--View Controller-->
         <scene sceneID="DDD-P7-eim">
             <objects>
-                <viewController storyboardIdentifier="page1" id="n74-22-yA9" customClass="ViewController" customModule="Pages" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="page1" modalPresentationStyle="fullScreen" id="n74-22-yA9" customClass="ViewController" customModule="Pages" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TDt-2g-Pho">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
