@@ -15,17 +15,38 @@ class ContainerPage: UIPageViewController , UIPageViewControllerDelegate , UIPag
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        /*Methode 1: On utilise 3 pages */
+        /*
         //on instatier les pages du storyboard
         let page1 = storyboard?.instantiateViewController(identifier: "page1")
         let page2 = storyboard?.instantiateViewController(identifier: "page2")
         let page3 = storyboard?.instantiateViewController(identifier: "page3")
         
-        //on les ajoute a la liste
+        //on les rajoute a la liste
         containers.append(page1!)
         containers.append(page2!)
         containers.append(page3!)
         
+        */
         
+        
+        /*Methode 2 : On utilise 1 seule page et on change son contenu */
+        //on instancie notre page controller 3 fois
+        let page1 = storyboard?.instantiateViewController(identifier: "page1") as! ViewController
+            page1.PageTitle = "First Page"
+            page1.PageDescription = "Description1"
+        let page2 = storyboard?.instantiateViewController(identifier: "page1") as! ViewController
+            page2.PageTitle = "Second Page"
+            page2.PageDescription = "Description2"
+        let page3 = storyboard?.instantiateViewController(identifier: "page1")as! ViewController
+            page3.PageTitle = "Third Page"
+            page3.PageDescription = "Description3"
+        
+        
+        //on les rajoute a la liste
+        containers.append(page1)
+        containers.append(page2)
+        containers.append(page3)
         //definir cette classe comme delegate et datasource du pageViewController
         delegate = self
         dataSource = self
