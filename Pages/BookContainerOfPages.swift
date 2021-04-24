@@ -23,6 +23,7 @@ class BookContainerOfPages: UIPageViewController ,  UIPageViewControllerDelegate
         for i in 0...livre.count-1{
             let page1 = storyboard?.instantiateViewController(identifier: "page") as! BookContentViewController
             page1.texte = livre[i].content
+            page1.titreSection = livre[i].title
             pages.append(page1)
             //page1.PageColor = #colorLiteral(red: 0.9309845567, green: 0.6428451538, blue: 0.310287118, alpha: 1) //using color literal
         }

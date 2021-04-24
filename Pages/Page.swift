@@ -66,5 +66,4 @@ Page(title:"CHAPITRE 48" , content: "Le condamné est dans une chambre de l’h�
 Page(title:"CHAPITRE 49" , content: "Le condamné demande sa grâce  à cette personne qu’il croyait juge, commissaire ou magistrat. Il demande, par pitié, qu’on lui donne cinq minutes pour attendre la grâce. Mais le juge et le bourreau sortent de la cellule. Il reste seul avec le gendarme. Il espère encore mais voilà qu’on vient le chercher…"),
 //Page(title:"CHAPITRE 40" , content: ""),
 
-
 ]
