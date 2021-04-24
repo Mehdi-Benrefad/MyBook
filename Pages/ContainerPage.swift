@@ -33,20 +33,24 @@ class ContainerPage: UIPageViewController , UIPageViewControllerDelegate , UIPag
         /*Methode 2 : On utilise 1 seule page et on change son contenu */
         //on instancie notre page controller 3 fois
         let page1 = storyboard?.instantiateViewController(identifier: "page1") as! ViewController
-            page1.PageTitle = "First Page"
-            page1.PageDescription = "Description1"
+            page1.PageTitle = "La Boîte à merveilles"
+            page1.PageDescription = "La Boîte à merveilles est un roman autobiographique de l'écrivain marocain Ahmed Sefrioui, publié en 1954."
+            page1.PageColor = #colorLiteral(red: 0.9309845567, green: 0.6428451538, blue: 0.310287118, alpha: 1) //using color literal
         let page2 = storyboard?.instantiateViewController(identifier: "page1") as! ViewController
-            page2.PageTitle = "Second Page"
-            page2.PageDescription = "Description2"
+            page2.PageTitle = "Antigonne"
+            page2.PageDescription = "Antigone est une pièce en un acte de Jean Anouilh représentée pour la première fois au théâtre de l'Atelier à Paris le 4 février 1944, durant l'Occupation allemande, dans une mise en scène, des décors et des costumes d'André Barsacq."
+            page2.PageColor = #colorLiteral(red: 0.3590987325, green: 0.5560032725, blue: 0.7849989533, alpha: 1)
         let page3 = storyboard?.instantiateViewController(identifier: "page1")as! ViewController
-            page3.PageTitle = "Third Page"
-            page3.PageDescription = "Description3"
+            page3.PageTitle = "Le Dernier Jour d’un condamné"
+            page3.PageDescription = "Le Dernier Jour d’un condamné est un roman à thèse de Victor Hugo publié en 1829 chez Charles Gosselin, qui constitue un plaidoyer politique pour l'abolition de la peine de mort."
+            page3.PageColor = #colorLiteral(red: 0.7484826446, green: 0.768936336, blue: 0.7882367969, alpha: 1)
         
         
         //on les rajoute a la liste
         containers.append(page1)
         containers.append(page2)
         containers.append(page3)
+        
         //definir cette classe comme delegate et datasource du pageViewController
         delegate = self
         dataSource = self

@@ -11,12 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var Titre: UILabel!
     @IBOutlet weak var Description: UILabel!
-    
+    var PageColor : UIColor?
     var PageTitle=String() , PageDescription=String()
     override func viewDidLoad() {
         super.viewDidLoad()
         Titre.text = PageTitle
         Description.text = PageDescription
+        view.backgroundColor = PageColor
         // Do any additional setup after loading the view.
     }
 
