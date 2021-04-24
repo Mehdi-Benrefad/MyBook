@@ -19,7 +19,7 @@ class BookContainerOfPages: UIPageViewController ,  UIPageViewControllerDelegate
                 livre = dernierJour
                    
          }else if titre == "La Boîte à merveilles"{
-            livre = dernierJour
+            livre = laBoitrAMervelles
          }else if titre == "Antigonne"{
             livre = antigonne
         }

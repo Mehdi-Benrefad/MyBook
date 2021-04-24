@@ -103,3 +103,29 @@ Page(title:"SCENE 27" , content: "LE CHŒUR / LES GARDES \n\n Pendant que le ch�
 
 
 ]
+
+
+
+
+
+
+
+
+
+let laBoitrAMervelles = [Page(title:"CHAPITRE 1" , content: "La description de « DAR CHOUAFA », de leur entourage, du Msid dans le roman vient après la séance du Bain maure. \n La dispute de RAHMA avec Lalla Zoubida. \n Évanouissement du garçon."),
+Page(title:"CHAPITRE 2" , content: "La visite de Lalla Aicha. \nLa mère et Lalla Aicha se rendent avec sidi Mohamed à Sidi Ali Boughaleb. \n Le narrateur se fait griffer.\n Le lever dans la maison traditionnelle."),
+Page(title:"CHAPITRE 3" , content: "Fatma Bziouya achète une lampe à pétrole. \n Le lendemain Lalla Zoubida demande à Mâalam Abdeslam de lui acheter aussi une lampe à pétrole, ce dernier succombe au désir de sa femme. \n « La boite à merveilles » nous apprend la disparition de Zineb. \n Rahma organise un repas pour les mendiants après avoir retrouvé sa fille Zineb."),
+Page(title:"CHAPITRE 4" , content: "Le récit du roman relate la visite de la mère et son enfant chez Lalla Aicha. \n Révélation des problèmes du mari de Lalla Aicha qui fut escroqué par son associé."),
+Page(title:"CHAPITRE 5" , content: "La mort d’un voisin : Sidi Ahmed Ben Tahar, le coiffeur. \n Les funérailles du voisin marque le voisinage et la vie de Sidi Mohammed."),
+Page(title:"CHAPITRE 6" , content: "Préparation pour Achoura au Msid. \n Le roman « la boite à merveilles » raconte le nettoyage du Msid et la fierté de l’enfant nommé «chef des frotteurs». \n L’achat des habits neufs à la « kissarya ». \n Si Othman se marie avec une très jeune fille."),
+Page(title:"CHAPITRE 7" , content: "Les préparatifs pour Achoura continuent \n Le réveil tôt du garçon. \n Coupe de cheveux et la douche nocturne. \n Rites : psalmodie au Msid. \n La visite de Lalla Aicha."),
+Page(title:"CHAPITRE 8" , content: "Le roman raconte les progrès remarquables de l’enfant à l’école coranique. \n La visite au souk de bijoux en vue d’en acheter à la mère. \n Dispute du père avec un courtier. \n La mère croit que les bracelets portent malheur. \n Le mari de Lalla Aicha la quitte et se marie avec la fille du coiffeur. \n L’enfant tombe malade. \n La dispute entre mâalam Abdeslam et le Dellal."),
+Page(title:"CHAPITRE 9" , content: "Le père a perdu son capital, sa résolution de partir travailler comme moissonneur. \n Départ du père. \n L’enfant est triste et se sent seul après le départ du père. \n La visite chez Lalla Aicha."),
+Page(title:"CHAPITRE 10" , content: "L’enfant, sa mère, Lalla Aicha se rendent chez le Fqih Sidi El Arafi. Prémonition du Fqih. \n La mère décide de retenir l’enfant à la maison pour qu’il lui tienne compagnie. \n Visite d’un émissaire de la part du père. \n Visite de Lalla Aicha qui réserve une surprise à Lalla Zoubida."),
+Page(title:"CHAPITRE 11" , content: "Bavardage entre femmes. \n «La boite à merveilles» nous apprend la demande de pardon de la part de Salama la marieuse pour le mal qu’elle a fait à Lalla Aicha et son amie. \n L’annonce du divorce de Mly Larbi et sa nouvelle femme. \n L’ignorance de l’enfant vis à vis des sujets du bavardage."),
+Page(title:"CHAPITRE 12" , content: "La narration du roman annonce le retour du père et la joie de la famille et des voisins; \n Visite courtoisie de Driss El Aouad"),
+
+
+
+
+]
