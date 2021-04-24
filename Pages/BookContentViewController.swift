@@ -10,7 +10,6 @@ import UIKit
 
 class BookContentViewController: UIViewController {
     @IBOutlet weak var titre: UILabel!
-    @IBOutlet weak var page: UILabel!
     @IBOutlet weak var pageContent: UILabel!
     var texte = String()
     var titreSection = String()

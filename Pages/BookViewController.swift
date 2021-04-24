@@ -13,10 +13,10 @@ class BookViewController: UIViewController {
     @IBOutlet weak var page: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        if(titre == "Le Dernier Jour d’un condamné"){
+        
             page.text = titre
             
-        }
+        
         
     }
     

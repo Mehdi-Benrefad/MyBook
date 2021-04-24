@@ -18,7 +18,11 @@ class BookContainerOfPages: UIPageViewController ,  UIPageViewControllerDelegate
          if(titre == "Le Dernier Jour d’un condamné"){
                 livre = dernierJour
                    
-               }
+         }else if titre == "La Boîte à merveilles"{
+            livre = dernierJour
+         }else if titre == "Antigonne"{
+            livre = antigonne
+        }
         
         for i in 0...livre.count-1{
             let page1 = storyboard?.instantiateViewController(identifier: "page") as! BookContentViewController
@@ -50,7 +54,7 @@ class BookContainerOfPages: UIPageViewController ,  UIPageViewControllerDelegate
         let previous = index-1
         
         guard previous >= 0 else{
-            return pages.last
+            return nil
         }
         
         return pages[previous]
@@ -68,7 +72,7 @@ class BookContainerOfPages: UIPageViewController ,  UIPageViewControllerDelegate
         let next = index+1
         
         guard next < pages.count else{
-            return pages.first
+            return nil
         }
         return pages[next]
     }
