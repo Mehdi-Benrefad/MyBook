@@ -7,6 +7,6 @@ pattern MVC, et les storyboarrds sont optimise (chaque storyboard a un role uniq
 
 
 <h3>DEMO:</h3>
-<video width="320" height="240" controls>
-  <source src="App-Result/demo.mp4" type="video/mp4">
-</video>
+
+https://user-images.githubusercontent.com/62174583/115979171-e7942580-a573-11eb-8d49-1ad74204aa8a.mp4
+
