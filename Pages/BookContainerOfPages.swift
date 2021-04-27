@@ -11,7 +11,7 @@ import UIKit
 class BookContainerOfPages: UIPageViewController ,  UIPageViewControllerDelegate , UIPageViewControllerDataSource {
     var titre=String()
     var pages = [UIViewController]()
-    var livre = [Page]()
+    var livre = [Page]() 
     override func viewDidLoad() {
         super.viewDidLoad()
         
