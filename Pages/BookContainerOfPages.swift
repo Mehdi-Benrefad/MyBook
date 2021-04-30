@@ -45,7 +45,7 @@ class BookContainerOfPages: UIPageViewController ,  UIPageViewControllerDelegate
     
     
 
-    //lorcequ on defile a droite
+    //lorcequ'on defile a droite
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
         guard let index = pages.firstIndex(of: viewController) else{
@@ -63,7 +63,7 @@ class BookContainerOfPages: UIPageViewController ,  UIPageViewControllerDelegate
     
     
     
-    //lorcequ on defile a gauche
+    //lorcequ'on defile a gauche
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
         guard let index = pages.firstIndex(of: viewController) else{
